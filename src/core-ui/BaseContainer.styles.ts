@@ -5,6 +5,4 @@ export const BaseContainer = styled.div`
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
-
-  width: 320px;
 `;
