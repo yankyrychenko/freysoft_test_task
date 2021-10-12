@@ -33,10 +33,14 @@ p {
 
 ul,
 li {
+  margin:0;
+  padding:0;
   list-style: none;
 }
 
 ​a {
+  margin:0;
+  padding:0;
   text-decoration: none;
 }
 
