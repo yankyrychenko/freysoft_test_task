@@ -1,6 +1,8 @@
 import styled from "styled-components/macro";
 
 export const HeroTitle = styled.h1`
+  margin-bottom: 16px;
+
   font-weight: 900;
   font-size: 2.5rem;
   line-height: 111%;
@@ -12,10 +14,13 @@ export const HeroTitle = styled.h1`
   }
 
   @media screen and (min-width: 768px) {
+    margin-bottom: 24px;
     font-size: 3.5rem;
   }
 
   @media screen and (min-width: 1440px) {
+    margin-right: 50px;
+    margin-bottom: 0px;
     max-width: 430px;
   }
 `;
