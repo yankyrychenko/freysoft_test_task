@@ -38,6 +38,10 @@ export const Text = styled.p`
     margin-right: 52px;
   }
 
+  @media screen and (min-width: 768px) {
+    max-width: 350px;
+  }
+
   @media screen and (min-width: 1440px) {
     max-width: 612px;
     font-size: 24px;
@@ -125,7 +129,7 @@ export const TextContainer = styled.div`
     display: flex;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1440px) {
     display: block;
   }
 `;
@@ -135,4 +139,12 @@ export const TitleContainer = styled.div`
     display: flex;
     justify-content: space-between;
   }
+`;
+
+export const SwiperContainer = styled.div`
+  height: 28.125em;
+  padding: 2em 1.5em 1.5em;
+  background: linear-gradient(0deg, #ffffff, #ffffff),
+    linear-gradient(117.15deg, #1bd1fc 0%, #316dd1 100%);
+  border-radius: 16px;
 `;

@@ -1,5 +1,23 @@
 import styled from "styled-components/macro";
 
+export const HeroContainer = styled.section`
+  background-color: #020213;
+  padding-top: 162px;
+`;
+
+export const TitleContainer = styled.div`
+  margin-bottom: 42px;
+
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 16px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    margin-bottom: 100px;
+  }
+`;
+
 export const HeroTitle = styled.h1`
   margin-bottom: 16px;
 
@@ -25,12 +43,6 @@ export const HeroTitle = styled.h1`
   }
 `;
 
-export const TitleContainer = styled.div`
-  @media screen and (min-width: 1440px) {
-    display: flex;
-  }
-`;
-
 export const HeroText = styled.p`
   line-height: 155%;
   color: #ffffff;
@@ -41,6 +53,26 @@ export const HeroText = styled.p`
   }
 `;
 
-export const HeroContainer = styled.div`
-  background-color: #020213;
+export const Wave = styled.div`
+  width: 100vw;
+  overflow-x: hidden;
+`;
+
+export const WaveList = styled.ul`
+  display: flex;
+  width: 425.25em;
+
+  @keyframes scrolling {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-1 * 378px * 4));
+    }
+  }
+  animation: scrolling 12s linear infinite;
+
+  li {
+    padding: 0 20px 20px 0;
+  }
 `;

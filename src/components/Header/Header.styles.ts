@@ -1,13 +1,13 @@
 import styled from "styled-components/macro";
 
 export const StyledHeader = styled.header`
+  background-color: #020213;
+`;
+
+export const HeaderContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 20px;
-  padding-right: 20px;
-
-  background-color: #020213;
 `;
 
 export const MenuContainer = styled.div`
@@ -20,6 +20,10 @@ export const StyledContactIcon = styled.img`
 
 export const NavigationList = styled.ul`
   display: flex;
+
+  div {
+    color: #ffffff;
+  }
 
   li {
     margin-right: 36px;

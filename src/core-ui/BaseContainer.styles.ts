@@ -6,9 +6,14 @@ export const BaseContainer = styled.div`
   padding-left: 20px;
   padding-right: 20px;
 
+  @media screen and (min-width: 768px) {
+    width: 728px;
+  }
+
   @media screen and (min-width: 1440px) {
     padding-left: 90px;
     padding-right: 90px;
+    width: 1260px;
   }
 
   @media screen and (min-width: 1920px) {

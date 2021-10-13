@@ -37,7 +37,6 @@ export const Text = styled.p`
 
   @media screen and (min-width: 1440px) {
     max-width: 576px;
-    font-size: 1.5rem;
 
     &:first-child {
       margin-right: 40px;
@@ -45,28 +44,22 @@ export const Text = styled.p`
   }
 `;
 
-export const TextContainer = styled.div`
+export const TextContainer = styled.section`
   @media screen and (min-width: 768px) {
     display: flex;
   }
 `;
 
-export const Container = styled.div`
-  margin-left: auto;
-  margin-right: auto;
-  padding: 48px 20px;
+export const AboutContainer = styled.div`
+  padding: 48px 0;
 
   @media screen and (min-width: 768px) {
-    padding: 80px 20px;
+    padding: 80px 0;
   }
 
   @media screen and (min-width: 1440px) {
     display: flex;
     justify-content: space-between;
-    padding: 100px 90px;
-  }
-
-  @media screen and (min-width: 1920px) {
-    padding: 100px 330px;
+    padding: 100px 0;
   }
 `;

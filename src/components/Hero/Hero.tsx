@@ -4,7 +4,10 @@ import {
   HeroTitle,
   HeroContainer,
   TitleContainer,
+  Wave,
+  WaveList,
 } from "./Hero.styles";
+import { photosWaveData } from "../../data/photosWaveData";
 
 export const Hero = () => {
   return (
@@ -14,6 +17,7 @@ export const Hero = () => {
           <HeroTitle>
             We’ve got the job for you<span>!</span>
           </HeroTitle>
+
           <HeroText>
             We offer experienced IT specialists to be involved in
             ground-breaking digital projects and IT novices to develop skills in
@@ -21,6 +25,23 @@ export const Hero = () => {
           </HeroText>
         </TitleContainer>
       </BaseContainer>
+
+      <Wave>
+        <WaveList>
+          {photosWaveData.map((el) => (
+            <li key={el.id}>
+              <div>See All Roles</div>
+              <img src={el.src} alt={el.alt} />
+            </li>
+          ))}
+          {photosWaveData.map((el) => (
+            <li key={el.id}>
+              <div>See All Roles</div>
+              <img src={el.src} alt={el.alt} />
+            </li>
+          ))}
+        </WaveList>
+      </Wave>
     </HeroContainer>
   );
 };
