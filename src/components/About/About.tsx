@@ -1,9 +1,15 @@
 import { BaseContainer } from "../../core-ui/BaseContainer.styles";
-import { Title, Text, TextContainer, AboutContainer } from "./About.style";
+import {
+  Title,
+  Text,
+  TextContainer,
+  AboutContainer,
+  AboutSection,
+} from "./About.style";
 
 export const About = () => {
   return (
-    <section>
+    <AboutSection>
       <BaseContainer>
         <AboutContainer>
           <Title>About the company</Title>
@@ -25,6 +31,6 @@ export const About = () => {
           </TextContainer>
         </AboutContainer>
       </BaseContainer>
-    </section>
+    </AboutSection>
   );
 };

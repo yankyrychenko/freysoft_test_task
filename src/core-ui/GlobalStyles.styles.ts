@@ -2,6 +2,24 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
 
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: url("../assets/fonts/Display.otf");
+  font-weight:400;
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: url("../assets/fonts/Display Bold.otf");
+  font-weight:800;
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: url("../assets/fonts/Display Black.otf");
+  font-weight:900;
+}
+
 ​*,
 *::before,
 *::after {

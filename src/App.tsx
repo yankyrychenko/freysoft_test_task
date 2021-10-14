@@ -1,18 +1,22 @@
 import { Header } from "./components/Header";
-import { Hero } from "./components/Hero";
+import { Inroduction } from "./components/Inroduction";
 import { About } from "./components/About";
 import { Recruitment } from "./components/Recruitment";
 import { Footer } from "./components/Footer";
 import { Benefits } from "./components/Benefits";
+import { Vacancies } from "./components/Vacancies";
+import { Perks } from "./components/Perks";
 
 const App = () => {
   return (
     <>
       <Header />
-      <Hero />
+      <Inroduction />
       <About />
       <Recruitment />
       <Benefits />
+      {/* <Vacancies /> */}
+      <Perks />
       <Footer />
     </>
   );

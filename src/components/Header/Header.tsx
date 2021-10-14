@@ -1,3 +1,8 @@
+import { useBreakpoint } from "../../utilities/resize/useBreakpoint";
+import Logo from "../../assets/images/logo.svg";
+import ContactIcon from "../../assets/images/contact-icon.svg";
+import MenuIcon from "../../assets/images/menu-icon.svg";
+import { BaseContainer } from "../../core-ui/BaseContainer.styles";
 import {
   StyledHeader,
   MenuContainer,
@@ -6,11 +11,6 @@ import {
   NavigationList,
   HeaderContainer,
 } from "./Header.styles";
-import Logo from "../../assets/images/logo.svg";
-import ContactIcon from "../../assets/images/contact-icon.svg";
-import MenuIcon from "../../assets/images/menu-icon.svg";
-import { useBreakpoint } from "../../utilities/resize/useBreakpoint";
-import { BaseContainer } from "../../core-ui/BaseContainer.styles";
 
 export const Header = () => {
   const tablet = useBreakpoint(1440);
