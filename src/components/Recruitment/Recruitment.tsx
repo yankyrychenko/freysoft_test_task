@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination } from "swiper";
 import { useBreakpoint } from "../../utilities/resize/useBreakpoint";
-import StepsFlowImage from "../../assets/images/steps-flow.svg";
 import { BaseContainer } from "../../core-ui/BaseContainer.styles";
 import {
   RecruitmentSection,
@@ -13,7 +12,6 @@ import {
   TextContainer,
   TitleContainer,
   SwiperContainer,
-  StepsFlow,
   BackgoroundText,
   SliderTextWrap,
   BackgoroundStepsFlow,
