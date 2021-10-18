@@ -1,4 +1,8 @@
-import { photosWaveData } from "../../data/photosWaveData";
+import {
+  firstWaveData,
+  secondWaveData,
+  thirdWaveData,
+} from "../../data/photosWaveData";
 import { useBreakpoint } from "../../utilities/resize/useBreakpoint";
 import { BaseContainer } from "../../core-ui/BaseContainer.styles";
 import {
@@ -32,37 +36,24 @@ export const Inroduction = () => {
 
       <Wave>
         <WaveList>
-          {photosWaveData.map((el) => (
-            <li key={el.id}>
-              <img src={el.src} alt={el.alt} />
-            </li>
-          ))}
-          {photosWaveData.map((el) => (
-            <li key={el.id}>
+          {firstWaveData.map((el) => (
+            <li key={el.alt}>
               <img src={el.src} alt={el.alt} />
             </li>
           ))}
         </WaveList>
+
         <WaveList>
-          {photosWaveData.map((el) => (
-            <li key={el.id}>
-              <img src={el.src} alt={el.alt} />
-            </li>
-          ))}
-          {photosWaveData.map((el) => (
-            <li key={el.id}>
+          {secondWaveData.map((el) => (
+            <li key={el.alt}>
               <img src={el.src} alt={el.alt} />
             </li>
           ))}
         </WaveList>
+
         <WaveList>
-          {photosWaveData.map((el) => (
-            <li key={el.id}>
-              <img src={el.src} alt={el.alt} />
-            </li>
-          ))}
-          {photosWaveData.map((el) => (
-            <li key={el.id}>
+          {thirdWaveData.map((el) => (
+            <li key={el.alt}>
               <img src={el.src} alt={el.alt} />
             </li>
           ))}

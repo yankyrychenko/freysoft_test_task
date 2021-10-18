@@ -1,6 +1,8 @@
 import styled from "styled-components/macro";
+import StepsFlowImage from "../../assets/images/steps-flow.svg";
 
 export const RecruitmentSection = styled.section`
+  position: relative;
   padding: 64px 0 48px 0;
 
   background: #d5d4d9;
@@ -127,15 +129,25 @@ export const StepsFlow = styled.img`
   left: 120px;
   position: absolute;
   bottom: 100px;
-  z-index: 100;
+  z-index: 10;
 `;
 
 export const BackgoroundText = styled.p`
   position: absolute;
   bottom: 0;
   right: 80px;
-
   font-weight: 900;
   font-size: 16.25em;
   color: #efdcfb;
+`;
+
+export const BackgoroundStepsFlow = styled.div`
+  background: no-repeat url(${StepsFlowImage});
+  background-position-x: center;
+  bottom: 6.875em;
+  display: block;
+  height: 10.9375em;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
 `;

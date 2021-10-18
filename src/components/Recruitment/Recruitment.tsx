@@ -16,6 +16,7 @@ import {
   StepsFlow,
   BackgoroundText,
   SliderTextWrap,
+  BackgoroundStepsFlow,
 } from "./Recruitment.styles";
 
 export const Recruitment = () => {
@@ -99,6 +100,7 @@ export const Recruitment = () => {
           </SwiperSlide>
         </Swiper>
       </BaseContainer>
+      {!tablet && <BackgoroundStepsFlow />}
     </RecruitmentSection>
   );
 };

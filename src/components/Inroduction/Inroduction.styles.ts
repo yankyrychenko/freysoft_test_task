@@ -85,6 +85,14 @@ export const WaveList = styled.ul`
     animation: scrolling 15s linear infinite;
   }
 
+  &:nth-child(2) {
+    animation-delay: 0.25s;
+  }
+
+  &:nth-child(3) {
+    animation-delay: 0.5s;
+  }
+
   li {
     padding: 0 6px 6px 0;
 

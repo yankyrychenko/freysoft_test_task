@@ -3,15 +3,18 @@ import styled from "styled-components/macro";
 export const PerksSection = styled.section`
   padding: 80px 0 42px 0;
   background: #fcf7f8;
+
+  @media screen and (min-width: 1440px) {
+    background: transparent;
+  }
 `;
 
 export const Title = styled.h2`
   margin-bottom: 66px;
 
   font-weight: 900;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 110%;
-  /* or 35px */
   letter-spacing: -1px;
   text-align: center;
   color: #202523;
@@ -36,17 +39,14 @@ export const SwiperContainer = styled.div`
 
   @media screen and (min-width: 1440px) {
     min-height: auto;
-
     width: 22.5em;
     background: transparent;
   }
 `;
 
 export const SliderText = styled.p`
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 25px;
-  /* or 156% */
-
   color: #596067;
 `;
 
@@ -54,12 +54,10 @@ export const SliderTitle = styled.h2`
   margin-bottom: 24px;
 
   font-weight: 800;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 110%;
-  /* or 35px */
   text-align: center;
   letter-spacing: -1px;
-
   color: #202523;
 `;
 
@@ -68,6 +66,7 @@ export const CardsWrap = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
 `;
+
 export const Image = styled.img`
   margin: 0 auto 0 auto;
   margin-bottom: 48px;

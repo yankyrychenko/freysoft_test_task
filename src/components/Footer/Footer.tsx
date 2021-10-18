@@ -1,3 +1,6 @@
+import FacebookIcon from "../../assets/images/socialMedia/facebook-icon.svg";
+import LinkedinIcon from "../../assets/images/socialMedia/linkedin-icon.svg";
+import TwitterIcon from "../../assets/images/socialMedia/twitter-icon.svg";
 import {
   StyledFotter,
   Container,
@@ -5,10 +8,6 @@ import {
   LinksList,
   SocialMediaList,
 } from "./Footer.styles";
-
-import FacebookIcon from "../../assets/images/facebook-icon.svg";
-import LinkedinIcon from "../../assets/images/linkedin-icon.svg";
-import TwitterIcon from "../../assets/images/twitter-icon.svg";
 
 export const Footer = () => {
   return (

@@ -6,11 +6,19 @@ export const VacanciesSearchForm = () => {
     <SearchFormContainer>
       <BaseContainer>
         <Title>Open vacancies</Title>
+
         <form>
-          <div>
-            <input type="text" name="keyword" id="keyword" placeholder=" " />
-            <label htmlFor="keyword">Use keyword: Java, Figma, manager</label>
-          </div>
+          <label>
+            <input />
+          </label>
+
+          <label>
+            <input />
+          </label>
+
+          <label>
+            <input />
+          </label>
         </form>
       </BaseContainer>
     </SearchFormContainer>

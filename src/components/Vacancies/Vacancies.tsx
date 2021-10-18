@@ -1,5 +1,10 @@
-import { VacanciesSearchForm } from "./VacanciesSearchForm";
+import { RecruitmentSection } from "./Vacancies.styles";
+import { VacanciesList } from "./VacanciesList";
 
 export const Vacancies = () => {
-  return <VacanciesSearchForm />;
+  return (
+    <RecruitmentSection>
+      <VacanciesList />
+    </RecruitmentSection>
+  );
 };
